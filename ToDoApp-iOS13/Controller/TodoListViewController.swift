@@ -10,7 +10,7 @@ import UIKit
 class TodoListViewController: UITableViewController {
 
     @IBOutlet weak var addItem: UIBarButtonItem!
-    var array = ["Ali", "Kardelen", "Melisa"]
+    var array = ["Wash Dishes", "Buy Food", "Practice Swift Coding"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
