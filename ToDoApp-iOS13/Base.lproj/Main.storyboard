@@ -30,7 +30,14 @@
                             <outlet property="delegate" destination="MMP-eQ-fAi" id="MTW-Qk-GMC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TodoApp" id="kji-dp-oyt"/>
+                    <navigationItem key="navigationItem" title="TodoApp" id="kji-dp-oyt">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ggj-19-taR">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="MMP-eQ-fAi" id="4s1-DU-HYw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXx-RN-FYZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
