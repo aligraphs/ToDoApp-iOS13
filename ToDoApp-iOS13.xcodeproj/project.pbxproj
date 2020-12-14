@@ -16,6 +16,7 @@
 		41DAD61C2586B2FC0028A02F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DAD61B2586B2FC0028A02F /* Item.swift */; };
 		41DAD61F2586C2640028A02F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DAD61E2586C2640028A02F /* CategoryViewController.swift */; };
 		41DAD6222586C7740028A02F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DAD6212586C7740028A02F /* Category.swift */; };
+		41DAD63D2587A3100028A02F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DAD63C2587A3100028A02F /* SwipeTableViewController.swift */; };
 		E89FEB1152FF3D45950A500F /* Pods_ToDoApp_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC7463B52D3DC55EBF30C46 /* Pods_ToDoApp_iOS13.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		41DAD61B2586B2FC0028A02F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		41DAD61E2586C2640028A02F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		41DAD6212586C7740028A02F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		41DAD63C2587A3100028A02F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		BBC7463B52D3DC55EBF30C46 /* Pods_ToDoApp_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoApp_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DCA1F398E0640845F521ED /* Pods-ToDoApp-iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp-iOS13.release.xcconfig"; path = "Target Support Files/Pods-ToDoApp-iOS13/Pods-ToDoApp-iOS13.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 			children = (
 				41DAD5FF25868EC50028A02F /* TodoListViewController.swift */,
 				41DAD61E2586C2640028A02F /* CategoryViewController.swift */,
+				41DAD63C2587A3100028A02F /* SwipeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				41DAD61F2586C2640028A02F /* CategoryViewController.swift in Sources */,
 				41DAD61C2586B2FC0028A02F /* Item.swift in Sources */,
 				41DAD60025868EC50028A02F /* TodoListViewController.swift in Sources */,
+				41DAD63D2587A3100028A02F /* SwipeTableViewController.swift in Sources */,
 				41DAD5FC25868EC50028A02F /* AppDelegate.swift in Sources */,
 				41DAD5FE25868EC50028A02F /* SceneDelegate.swift in Sources */,
 				41DAD6222586C7740028A02F /* Category.swift in Sources */,

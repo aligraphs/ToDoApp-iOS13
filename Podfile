@@ -8,5 +8,8 @@ target 'ToDoApp-iOS13' do
   # Pods for ToDoApp-iOS13
   
   pod 'RealmSwift'
+  pod 'SwipeCellKit'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
+
 
 end
